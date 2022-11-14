@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83a39fb3947aff4986da29b1f62a68d7",
+    "content-hash": "8e983cec9f33722452b16afe35b95b68",
     "packages": [
         {
             "name": "codeigniter4/framework",
@@ -1134,24 +1134,24 @@
         },
         {
             "name": "tatter/alerts",
-            "version": "v2.1.1",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tattersoftware/codeigniter4-alerts.git",
-                "reference": "f01d8295ee491e700554d462009644d10a5a9d93"
+                "reference": "aa7a57d5aaef3b9d0103f6fe17eca86c147fcf04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tattersoftware/codeigniter4-alerts/zipball/f01d8295ee491e700554d462009644d10a5a9d93",
-                "reference": "f01d8295ee491e700554d462009644d10a5a9d93",
+                "url": "https://api.github.com/repos/tattersoftware/codeigniter4-alerts/zipball/aa7a57d5aaef3b9d0103f6fe17eca86c147fcf04",
+                "reference": "aa7a57d5aaef3b9d0103f6fe17eca86c147fcf04",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.3 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "codeigniter4/codeigniter4": "dev-develop",
-                "tatter/tools": "^1.11"
+                "codeigniter4/framework": "^4.1",
+                "tatter/tools": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -1185,7 +1185,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tattersoftware/codeigniter4-alerts/issues",
-                "source": "https://github.com/tattersoftware/codeigniter4-alerts/tree/v2.1.1"
+                "source": "https://github.com/tattersoftware/codeigniter4-alerts/tree/v3.1.0"
             },
             "funding": [
                 {
@@ -1197,7 +1197,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-31T19:57:33+00:00"
+            "time": "2022-11-10T19:00:28+00:00"
         }
     ],
     "packages-dev": [
@@ -5466,8 +5466,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3||^8.0"
+        "php": "^7.4||^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
